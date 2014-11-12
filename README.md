@@ -6,15 +6,11 @@ A screenshot gem you can use from your ruby application. Uses Phantom.js under t
 
 Add this line to your application's Gemfile:
 
-    gem 'screencap'
+    gem 'screencap', '0.1.3', :git => 'https://github.com/trippd/screencap.git'
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install screencap
+    $ bundle install
 
 ## Usage
 
