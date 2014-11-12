@@ -1,6 +1,6 @@
 module Screencap
   class Phantom
-    RASTERIZE = SCREENCAP_ROOT.join('screencap', 'raster.js')
+    RASTERIZE = SCREENCAP_ROOT.join('screencap', '--ignore-ssl-errors=true --ssl-protocol=any raster.js')
 
     def self.rasterize(url, path, args = {})
       params = {
